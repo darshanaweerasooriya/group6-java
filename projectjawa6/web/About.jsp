@@ -13,6 +13,8 @@
         
         <title>JSP Page</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
     </head>
     <style>
         body{
@@ -65,7 +67,7 @@
         .nav-links ul li a{
             color: white;
             text-decoration: none;
-            font-size: 35px;
+            font-size: 20px;
         }
         .nav-links ul li::after{
             content: '';
@@ -89,6 +91,10 @@
         }
         nav .fa{
             display: none;
+        }
+        .log
+        {
+            left: 0;
         }
         @media(max-width: 700px){
             .text-box h1{
@@ -164,7 +170,7 @@
         <form acion="config" method="post">
             <section class="header">
                 <nav>
-                    <a href="About.jsp"><img src="abc2.png" ></a>
+                     <p class="log"><b><a href="#"> <img src="abc2.png" alt="" width="90px" height="90px"></a></b></p>
                     <div class="nav-links" id="navLinks">
                         <i class="fa fa-times" onclick="hideMenu()"></i>
                         <ul>
@@ -174,9 +180,21 @@
                             <li><a href="">Contact</a></li>
                             <li><a href="">About us</a></li>
                             <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            
+                          
                             
                             
-                            <a href="About.jsp"><img src="icon.jpeg"  width="90px" height="30px" ></a>
+                            <a href="About.jsp"><img src="ticket.png"   style="width:50px;  border-radius:50%;"></a>
                             <li><a href="">Buy Tickets</a></li>
                         </ul>
                     </div>
@@ -193,21 +211,21 @@
             <section> 
                 <div class="row">
                  <div class="row-one">
-                     <div class="image"><img src="icon.jpeg" alt="Trulli" width="90px" height="30px" ></div>
+                    <p class="log"><b><a href="#"> <img src="abc2.png" alt="" width="40px" height="40px"></a></b></p>
                      <p>ABC Cinema,<br>Colombo 7,<br>Sri Lanka.</p>
                  </div>
                     <div class="row-one">
-                     <p>Contact:<br>ABCcinema@gmail.com,<br>0111111111</p>
+                        <p>Contact:<br><br><i class="fas fa-envelope"></i> ABCcinema@gmail.com,</a><br><br><i class="fas fa-phone"> </i> 0111111111</p>
                  </div>
                     
                     <div class="row-one">
                         <p>Quick Links:</p>
                      <div class="row-one-Links">
                      <ul>
-                      <li><a href="">Movies</a></li><br>
-                     <li><a href="">News</a></li><br>
-                     <li><a href="">About us</a></li><br>
-                     <li><a href="">Contact</a></li>
+                      <li><a href="" class="fas fa-angle-right">  Movies</a></li><br>
+                     <li><a href="" class="fas fa-angle-right">  News</a></li><br>
+                     <li><a href="" class="fas fa-angle-right">  About us</a></li><br>
+                     <li><a href="" class="fas fa-angle-right">  Contact</a></li>
                      </ul>
                      </div>
                  </div>
@@ -228,7 +246,9 @@
                      </div>
                      
                  </div>
+                    
                 </div>
+                
             </section>          
                    
          
