@@ -45,10 +45,13 @@
             position: relative;
         }
         nav{
-            display: flex;
-            padding: 2% 6%;
-            justify-content: space-between;
-            align-items: center;
+           position: fixed;
+           top: 0;
+           background-color: black;
+           display: flex;
+           padding: 2% 6% ;
+           justify-content: space-between;
+           align-items: center;
         }
         nav img{
             width: 150px; 
@@ -163,6 +166,11 @@
         }
         .row-one-Links ul li:hover::after{
             width: 100%;
+        }
+        hr
+        {
+            margin-top: 200px;
+        }
        
     </style>
     <body>
